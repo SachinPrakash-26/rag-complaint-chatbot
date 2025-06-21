@@ -2,6 +2,7 @@ import re
 import requests
 from chatbot.rag import ask_rag_question, load_knowledge_base
 
+
 API_BASE = "http://127.0.0.1:8000"
 vectordb = load_knowledge_base("./chatbot/knowledge.pdf")
 
